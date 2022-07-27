@@ -1,7 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
+import AboutMe from "../components/AboutMe";
+import Consultation from "../components/Consultation";
 import Hero from "../components/Hero";
 import Nav from "../components/Navigation";
+import Slider from "../components/Slider";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -16,6 +19,10 @@ export default function Home() {
       <div className="py-10">
         <Nav />
         <Hero />
+        <AboutMe />
+        <Slider />
+        <Consultation />
+        <Nav />
       </div>
     </div>
   );

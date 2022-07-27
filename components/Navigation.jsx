@@ -8,7 +8,7 @@ const Navigation = () => {
         <a href="#">
           <Image src={Logo} />
         </a>
-        <button className="px-8 rounded-full text-lg font-semibold bg-black hover:bg-purple text-white">Free Consultation</button>
+        <button className="px-8 rounded-full text-lg font-semibold text-white bg-black hover:bg-purple  transition duration-300">Free Consultation</button>
       </div>
     </div>
   );
